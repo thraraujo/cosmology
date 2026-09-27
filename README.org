@@ -1,0 +1,36 @@
+* Dynamical Systems in Cosmology
+
+Projeto de pesquisa de iniciação científica. 
+
+** Bohmer - Dynamical systems in cosmology
+
+https://arxiv.org/abs/1409.5585v2
+
+*** Capítulo 02: Sistemas Dinâmicos na Cosmologia
+
+- Os \Omegas satisfazem um sistema de EDOs que definem um 
+sistema dinâmico - eq. 33
+
+- O objetivo é ler o capitulo 02 para entender o sistema 33
+
+- [Thiago] Eu acho que os pontos fixos definem futuro ou passado do 
+universo. E o objetivo é descobrir algo consistente com o universo observável. 
+
+- _Tem que ter em vista que o nosso objetivo é estudas as cosmologias de Bianchi
+
+## Resumo do que eu entendi do cap 2 
+- [Ana] O capítulo 2 basicamente introduz dois conceitos importantes; a Teoria da estabilidade linear e a Teoria da variedade central. Ambas consideram um sistema \dot{x} = f(x) e pontos fixos tais que f(x0) = 0. 
+    Na primeira o sistema é linearizad em torno do ponto fixo e para isso temos que calcular a matriz Jacobiana e seus autovalores, onde o comportamento da estabilidade vai depender dos valores da parte real dos autovalores. 
+        - Assintoticamente estável para Re(\Lambda)<0
+        - Instável para Re(\Lambda)>0
+        - Misto é ponto de sela 
+        - Inconclusivo para  Re(\Lambda) = 0
+
+Quando esses autovalores com parte real igual a zero aparecem usamos a teoria da variedade central; a ideia aqui é reduzir a dimensão di problema e concentrar nossa análise nas direções onde a linearização não resolve. Reescrevemos \dot{x} como :
+    
+    \dot{x} = Ax + f(x,y)
+    \dot{y} = By + g(x,y)
+
+A variedade central é representada por y=h(x) e nosso sistema é reduzido.
+
+Outras conceitos também foram apresentados mas os mais importantes foram esses.
